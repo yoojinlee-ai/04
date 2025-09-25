@@ -1,13 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-    int time;
+    int year;
 
-    printf("Input seconds: ");
-    scanf("%d", &time);
-
-    printf("The time is %i :%i\n", time);
+    printf("Input year :");
+    scanf("%i", &year);  
     
+    
+    printf("If the year is %i leap year? %s\n", year,
+        ( (year%4 == 0 && year%100 != 0) || (year%400 == 0) ) ? "Yes" : "No" );
+
     system("PAUSE");
 
     return 0;
