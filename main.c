@@ -10,11 +10,10 @@ int main() {
     b = 4;
     c = 5;
 
-    // Calculation of y = a*x^2 + b*x + c
-    // Use proper operator for power: x*x for x squared
+   
     y = a * x * x + b * x + c;
 
-    // Calculation of average m = (x + y + z) / 3
+   
     m = (x + y + z) / 3;
 
     printf("y=%d, m=%d\n", y, m);
