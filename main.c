@@ -19,6 +19,7 @@ int main() {
    
    printf("The result is : %i\n", b);
    
+   system("PAUSE");
    
    
     return 0;
